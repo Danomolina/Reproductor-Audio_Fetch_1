@@ -10,7 +10,7 @@ const MediaPlayer = () => {
   useEffect(() => {
     fetchSongs();
   }, []);
-
+/* Comencemos con el método GET y lo analizamos */
   const fetchSongs = async () => {
     try {
       const response = await fetch("https://playground.4geeks.com/sound/songs");
